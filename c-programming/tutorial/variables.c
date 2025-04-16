@@ -18,5 +18,8 @@ int main(){
     // Now is time to talk about explicit convertion
     double divided_by_result = (double) 5/2;
     printf("The value is %lf and the size is %lu.\n", divided_by_result, sizeof(divided_by_result)); 
+    // Information about constants
+    const int BIRTHYEAR = 1990;
+    printf("This is a constant: %d\n", BIRTHYEAR);
     return 0;
 }
